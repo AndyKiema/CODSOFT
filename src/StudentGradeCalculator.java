@@ -9,7 +9,7 @@ public class StudentGradeCalculator {
         int Math;
         while (true) {  
             Math = sc.nextInt();        
-            if (Math >= 0 && Math <= 100) {
+            if (Math>=0 && Math<=100) {
                 break; 
             } else {
                 System.out.println("The marks should be between 0 and 100. Please try again.");
@@ -20,7 +20,7 @@ public class StudentGradeCalculator {
         int Eng;
         while (true) { 
             Eng = sc.nextInt(); 
-            if (Eng >= 0 && Eng <= 100) {
+            if (Eng>=0 && Eng<=100) {
                 break; 
             } else {
                 System.out.println("The marks should be between 0 and 100. Please try again.");
@@ -31,7 +31,7 @@ public class StudentGradeCalculator {
         int Chem;
         while (true) {
             Chem = sc.nextInt(); 
-            if (Chem >= 0 && Chem <= 100) {
+            if (Chem>=0 && Chem<=100) {
                 break; 
             } else {
                 System.out.println("The marks should be between 0 and 100. Please try again.");
@@ -42,7 +42,7 @@ public class StudentGradeCalculator {
         int Phys;
         while (true) {
             Phys = sc.nextInt();
-            if (Phys >= 0 && Phys <= 100) {
+            if (Phys>=0 && Phys<=100) {
                 break; 
             } else {
                 System.out.println("The marks should be between 0 and 100. Please try again.");
@@ -52,7 +52,7 @@ public class StudentGradeCalculator {
         int Geo;
         while (true) {   
             Geo=sc.nextInt(); 
-            if (Geo >= 0 && Geo <= 100) {
+            if (Geo>=0 && Geo<=100) {
                 break; 
             } else {
                 System.out.println("The marks should be between 0 and 100. Please try again.");
@@ -62,7 +62,7 @@ public class StudentGradeCalculator {
         int Comp;
         while (true) {
             Comp = sc.nextInt();
-            if (Comp >= 0 && Comp <= 100) {
+            if (Comp>=0 && Comp<=100) {
                 break; 
             } else {
                 System.out.println("The marks should be between 0 and 100. Please try again.");
