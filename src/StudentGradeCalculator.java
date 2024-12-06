@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class StudentGradeCalculator {
     public static void main(String[] args) {
         System.out.println("Welcome to the Student Grade Calculator");
-        System.out.println("To get your average percentage and final grade, kindly input your marks for the following subjects: ");
+        System.out.println("To get your total score, average percentage and final grade, kindly input your marks for the following subjects: ");
         Scanner sc= new Scanner(System.in);
         System.out.println("Mathematics(Enter your marks out of 100): ");
         int Math;
@@ -71,69 +71,69 @@ public class StudentGradeCalculator {
         int sum=Math+Eng+Chem+Phys+Geo+Comp;
         float average=(sum/6);
         if(average>=0 && average<=19){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: F");
+            System.out.println("Final grade: F");
         }
         else if(average>=20 && average<=24){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: E");
+            System.out.println("Final grade: E");
         }
         else if(average>=25 && average<=29){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: D-");
+            System.out.println("Final grade: D-");
         }
         else if(average>=30 && average<=34){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: D");
+            System.out.println("Final grade: D");
         }
         else if(average>=35 && average<=39){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: D+");
+            System.out.println("Final grade: D+");
         }
         else if(average>=40 && average<=44){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: C-");
+            System.out.println("Final grade: C-");
         }
         else if(average>=45 && average<=49){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: C");
+            System.out.println("Final grade: C");
         }
         else if(average>=50 && average<=54){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: C+");
+            System.out.println("Final grade: C+");
         }
         else if(average>=55 && average<=59){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: B-");
+            System.out.println("Final grade: B-");
         }
         else if(average>=60 && average<=64){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: B");
+            System.out.println("Final grade: B");
         }
         else if(average>=65 && average<=69){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: B+");
+            System.out.println("Final grade: B+");
         }
         else if(average>=70 && average<=74){
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: A-");
+            System.out.println("Final grade: A-");
         }
         else{
-            System.out.println("Total marks: "+sum);
+            System.out.println("Total score: "+sum);
             System.out.println("Average percentage: "+average+"%");
-            System.out.println("Grade: A");
+            System.out.println("Final grade: A");
         }
     }
 }
