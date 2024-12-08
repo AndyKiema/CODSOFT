@@ -12,7 +12,7 @@ class  ATMMachine extends BankAccount{
         }
         else{
             accountBalance-=amount;
-            System.out.println("Transaction successful! You have withdrawn "+amount+". Your new account balance is $"+accountBalance);
+            System.out.println("Transaction successful! You have withdrawn $"+amount+". Your new account balance is $"+accountBalance);
         }
     }
     public static void deposit(int amount){
@@ -21,11 +21,11 @@ class  ATMMachine extends BankAccount{
         }
         else{
             accountBalance+=amount;
-            System.out.println("Transaction successful! You have deposited "+amount+". Your new account balance is $"+accountBalance);
+            System.out.println("Transaction successful! You have deposited $"+amount+". Your new account balance is $"+accountBalance);
         }
     }
     public static void checkBalance(){
-      System.out.println("Your account balance is: $"+accountBalance);
+      System.out.println("Your account balance is $"+accountBalance);
       }
 }
 
